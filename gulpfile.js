@@ -3,8 +3,8 @@ const sass = require('gulp-sass');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssDeclarationSorter = require('css-declaration-sorter');
-const mqpacker = require("css-mqpacker");
-const cssnano = require("cssnano");
+const mqpacker = require('css-mqpacker');
+const cssnano = require('cssnano');
 const stylelint = require('stylelint');
 const reporter = require('postcss-reporter');
 
