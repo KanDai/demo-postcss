@@ -1,0 +1,29 @@
+::placeholder {
+  color: gray;
+}
+
+body {
+  color: #C55;
+  display: block;
+  border: 0;
+  padding: 20px;
+}
+.foo {
+  width: 240px;
+}
+
+@media screen and (min-width: 768px) {
+  .foo {
+    width: 576px;
+  }
+}
+
+.bar {
+  width: 160px;
+}
+
+@media screen and (min-width: 768px) {
+  .bar {
+    width: 384px;
+  }
+}
