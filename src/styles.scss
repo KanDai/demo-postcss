@@ -1,29 +1,30 @@
-::placeholder {
-  color: gray;
+.foo {
+  display: flex;
 }
 
-body {
+.bar {
   color: #C55;
   display: block;
   border: 0;
   padding: 20px;
 }
-.foo {
+
+.hoge {
   width: 240px;
 }
 
 @media screen and (min-width: 768px) {
-  .foo {
+  .hoge {
     width: 576px;
   }
 }
 
-.bar {
+.fuga {
   width: 160px;
 }
 
 @media screen and (min-width: 768px) {
-  .bar {
+  .fuga {
     width: 384px;
   }
 }
